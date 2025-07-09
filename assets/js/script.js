@@ -6,14 +6,15 @@ const text = button.querySelector('.text');
 
 button.addEventListener('click', function() {
 
-  if (btn.classList.contains('btn-secondary')) {
+  if (button.classList.contains('btn-secondary')) {
 
-clickBtn.classList.add('btn-warning');
-clickBtn.classList.remove('btn-secondary');  }
+button.classList.add('btn-warning');
+button.classList.remove('btn-secondary');
+lamp.src= './assets/img/lampon.png'; }
 
 else {
-clickBtn.classList.add('btn-secondary');
-clickBtn.classList.remove('btn-warning');
+button.classList.add('btn-secondary');
+button.classList.remove('btn-warning');
 
 
 }
