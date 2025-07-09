@@ -10,12 +10,14 @@ button.addEventListener('click', function() {
 
 button.classList.add('btn-warning');
 button.classList.remove('btn-secondary');
-lamp.src= './assets/img/lampon.png'; }
+lamp.src= './assets/img/lampon.png';
+text.textContent = 'Spegni'; }
 
 else {
 button.classList.add('btn-secondary');
 button.classList.remove('btn-warning');
-
+lamp.src='./assets/img/lampoff.png';
+text.textContent = 'Accendi';
 
 }
 
